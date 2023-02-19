@@ -1,0 +1,5 @@
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.csproj.AssemblyReference.cache
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.AssemblyInfoInputs.cache
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.AssemblyInfo.cs
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.csproj.CoreCompileInputs.cache

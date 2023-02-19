@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programming\\C#\\SWE Assignment 1\\SWE Assignment 1.csproj": {}
+    "D:\\Programming\\C#\\SWE XO Assign\\SWE XO Assign.csproj": {}
   },
   "projects": {
-    "D:\\Programming\\C#\\SWE Assignment 1\\SWE Assignment 1.csproj": {
+    "D:\\Programming\\C#\\SWE XO Assign\\SWE XO Assign.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programming\\C#\\SWE Assignment 1\\SWE Assignment 1.csproj",
-        "projectName": "SWE Assignment 1",
-        "projectPath": "D:\\Programming\\C#\\SWE Assignment 1\\SWE Assignment 1.csproj",
+        "projectUniqueName": "D:\\Programming\\C#\\SWE XO Assign\\SWE XO Assign.csproj",
+        "projectName": "SWE XO Assign",
+        "projectPath": "D:\\Programming\\C#\\SWE XO Assign\\SWE XO Assign.csproj",
         "packagesPath": "C:\\Users\\Dark\\.nuget\\packages\\",
-        "outputPath": "D:\\Programming\\C#\\SWE Assignment 1\\obj\\",
+        "outputPath": "D:\\Programming\\C#\\SWE XO Assign\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Dark\\AppData\\Roaming\\NuGet\\NuGet.Config"
