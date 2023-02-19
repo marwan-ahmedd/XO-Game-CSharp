@@ -1,4 +1,3 @@
-using Internal;
 using System;
 using System.IO;
 
@@ -57,7 +56,6 @@ namespace TicTacToe
 
             p2 = new Player(name, choice);
 
-            
         }
     }
 
