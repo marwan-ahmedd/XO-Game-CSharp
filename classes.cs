@@ -22,7 +22,7 @@ namespace TicTacToe
             {
                 for (int j = 0; j < n; j++) 
                 {
-                    Console.Write("| " + grid[i, j] + " |");
+                    Console.Write("| " + grid[i, j] + " |");    // We should try to change it so they all have the same size when playing, to avoid the 1px difference
                 }
                 Console.WriteLine();
             }
@@ -50,8 +50,8 @@ namespace TicTacToe
                     if((this.grid[i,0] == symbol && this.grid[i,1] == symbol && this.grid[i,2] == symbol) ||
                     (this.grid[0,j] == symbol && this.grid[1,j] == symbol && this.grid[2,j] == symbol) ||
                     (this.grid[0,0] == symbol && this.grid[1,1] == symbol && this.grid[2,2] == symbol) ||
-                    (this.grid[0,2] == symbol && this.grid[1,1] == symbol && this.grid[2,0] == symbol))
-                    {
+                    (this.grid[0,2] == symbol && this.grid[1,1] == symbol && this.grid[2,0] == symbol))      // This can be optimized 
+                    {  
                         return true;
                     }
                 }
@@ -101,21 +101,21 @@ namespace TicTacToe
             board = BOARD;
             players = P;
         }
-        public void playGame()
+        public void playGame()      // We can make it so when they finish playing, they can start another round or close the game
         {
             while (true)
             {
                 Console.Clear();
-                Console.WriteLine("Player 1: " + players[0].getSymbol);
-                Console.WriteLine("Player 2: " + players[1].getSymbol);
+                Console.WriteLine(players[0].getName + ": " + players[0].getSymbol);
+                Console.WriteLine(players[1].getName + ": " + players[1].getSymbol);
                 board.displayBoard();
                 
                 int x, y;
 
-                Console.WriteLine("Player "+ (turn + 1) +", please choose where you want to play:");
+                Console.WriteLine(players[turn].getName + ", please choose where you want to play:");
 
-                string input = Console.ReadLine();
-                var data = input.Split(' ');
+                string input = Console.ReadLine();      // This is so the user can enter the 2 inputs on the same line,
+                var data = input.Split(' ');            // We should prob also make a case for if he enters 1 input then presses enter, aka defensive programming
                 x = Convert.ToInt32(data[0]);
                 y = Convert.ToInt32(data[1]);
 
@@ -137,7 +137,8 @@ namespace TicTacToe
                         }
                         else
                         {
-                            Console.WriteLine("The game ends with a tie");
+                            Console.Clear();
+                            Console.WriteLine("The game ends with a tie.");
                             board.displayBoard();
                             break;
                         }
@@ -145,14 +146,16 @@ namespace TicTacToe
                     else
                     {
                         Console.Clear();
-                        Console.WriteLine("Congrats, Player " + (turn + 1) + " won");
+                        Console.WriteLine("Congrats, " + players[turn].getName + " won.");
                         board.displayBoard();
                         break;
                     }
                 }
                 else
                 {
-                    Console.WriteLine("Sorry the index you choose is invalid, please try again");
+                    Console.WriteLine("Sorry the index you choose is invalid,");
+                    Console.WriteLine("Press any button to try again.");
+                    Console.ReadKey(true);
                 }
             }
         }
