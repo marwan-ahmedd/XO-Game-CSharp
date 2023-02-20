@@ -36,7 +36,29 @@ namespace TicTacToe
             Players[1] = new Player(name, sym);
 
             Game Launcher = new Game(Board, Players);
-            Launcher.playGame();
+            
+            while (true)
+            {
+                Launcher.playGame();
+                Console.WriteLine("Would you like to play again ? (Y/N)");
+                while (true)
+                {
+                    sym = char.ToUpper(Convert.ToChar(Console.ReadLine())); 
+                    if (sym != 'Y' && sym != 'N')
+                    {
+                        Console.WriteLine("Incorrect input");
+                        continue;
+                    }
+                    else {break;}
+                }
+                
+                if(sym == 'Y') {continue;}
+                else 
+                {
+                    Console.WriteLine("Thanks for playing XO....");
+                    break;
+                }
+            }
         }
     }
 

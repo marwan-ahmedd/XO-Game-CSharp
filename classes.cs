@@ -15,6 +15,16 @@ namespace TicTacToe
         public abstract bool updateBoard(int x, int y, char symbol);
         public abstract bool isWinner(char symbol);
         public abstract bool isDraw();
+        public void resetBoard()
+        {
+            for (int i = 0; i < n; i++) 
+            {
+                for (int j = 0; j < n; j++) 
+                {
+                    this.grid[i,j] = ' ';
+                }
+            }
+        }
 
         public void displayBoard() 
         {
@@ -22,7 +32,7 @@ namespace TicTacToe
             {
                 for (int j = 0; j < n; j++) 
                 {
-                    Console.Write("| " + grid[i, j] + " |");    // We should try to change it so they all have the same size when playing, to avoid the 1px difference
+                    Console.Write("| " + grid[i, j] + " |");
                 }
                 Console.WriteLine();
             }
@@ -101,8 +111,9 @@ namespace TicTacToe
             board = BOARD;
             players = P;
         }
-        public void playGame()      // We can make it so when they finish playing, they can start another round or close the game
+        public void playGame()
         {
+            board.resetBoard();
             while (true)
             {
                 Console.Clear();
