@@ -164,7 +164,7 @@ namespace TicTacToe
                 }
                 else
                 {
-                    Console.WriteLine("Sorry the index you choose is invalid,");
+                    Console.WriteLine("Sorry the index you chose is invalid,");
                     Console.WriteLine("Press any button to try again.");
                     Console.ReadKey(true);
                 }
