@@ -1,0 +1,30 @@
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.csproj.AssemblyReference.cache
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.AssemblyInfoInputs.cache
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.AssemblyInfo.cs
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.csproj.CoreCompileInputs.cache
+D:\Programming\C#\SWE XO Assign\bin\Debug\net7.0\SWE XO Assign.exe
+D:\Programming\C#\SWE XO Assign\bin\Debug\net7.0\SWE XO Assign.deps.json
+D:\Programming\C#\SWE XO Assign\bin\Debug\net7.0\SWE XO Assign.runtimeconfig.json
+D:\Programming\C#\SWE XO Assign\bin\Debug\net7.0\SWE XO Assign.dll
+D:\Programming\C#\SWE XO Assign\bin\Debug\net7.0\SWE XO Assign.pdb
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.dll
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\refint\SWE XO Assign.dll
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.pdb
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\SWE XO Assign.genruntimeconfig.cache
+D:\Programming\C#\SWE XO Assign\obj\Debug\net7.0\ref\SWE XO Assign.dll
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\bin\Debug\net7.0\SWE XO Assign.exe
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\bin\Debug\net7.0\SWE XO Assign.deps.json
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\bin\Debug\net7.0\SWE XO Assign.runtimeconfig.json
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\bin\Debug\net7.0\SWE XO Assign.dll
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\bin\Debug\net7.0\SWE XO Assign.pdb
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.csproj.AssemblyReference.cache
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.AssemblyInfoInputs.cache
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.AssemblyInfo.cs
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.csproj.CoreCompileInputs.cache
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.dll
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\refint\SWE XO Assign.dll
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.pdb
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\SWE XO Assign.genruntimeconfig.cache
+D:\Programming\Projects\C#\SWE XO Assign\XO C#\obj\Debug\net7.0\ref\SWE XO Assign.dll

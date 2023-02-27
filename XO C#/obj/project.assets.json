@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Programming\\C#\\SWE XO Assign\\SWE XO Assign.csproj",
+      "projectUniqueName": "D:\\Programming\\Projects\\C#\\SWE XO Assign\\XO C#\\SWE XO Assign.csproj",
       "projectName": "SWE XO Assign",
-      "projectPath": "D:\\Programming\\C#\\SWE XO Assign\\SWE XO Assign.csproj",
+      "projectPath": "D:\\Programming\\Projects\\C#\\SWE XO Assign\\XO C#\\SWE XO Assign.csproj",
       "packagesPath": "C:\\Users\\Dark\\.nuget\\packages\\",
-      "outputPath": "D:\\Programming\\C#\\SWE XO Assign\\obj\\",
+      "outputPath": "D:\\Programming\\Projects\\C#\\SWE XO Assign\\XO C#\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Dark\\AppData\\Roaming\\NuGet\\NuGet.Config"
